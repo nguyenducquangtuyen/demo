@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input id="firstName" type="text" placeholder="First name" />
+
+    <span id="firstNameError"></span>
+    <br />
+    <input id="lastName" type="text" placeholder="Last name" />
+
+    <span id="lastNameError"></span>
+    <br />
+    <button id="button">CLick</button>
+    <script>
+const sources = [
+    {
+      name : 'tuyen',
+      sdt : 09090909,
+      address : 'hai son' 
+    },
+    {
+      name : 'tuyen1',
+      sdt : 090909091,
+      address : 'hai son1' 
+    },
+    {
+      name : 'tuyen2',
+      sdt : 090909092,
+      address : 'hai son2' 
+    }
+  ]
+  
+function editAdress (element){
+  return {
+    name : `khoa hoc: ${element.name}`
+  }
+  
+}
+var result = sources.map(editAdress)
+  
+  // Expected results
+console.log(result)
+</script>
+
+// Expected results
+// caculate(1, 2, sumCb) // Output: 3
+// caculate(1, 2, subCb) // Output: -1
+// caculate(1, 2, multiCb) // Output: 2
+// caculate(3, 1, divCb) // Output: 3
+
+
+
+
+</script>
+  </body>
+</html>

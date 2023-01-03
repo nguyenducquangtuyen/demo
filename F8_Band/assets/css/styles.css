@@ -1,0 +1,470 @@
+/* reset css */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.clear {
+    clear: both;
+}
+
+.col {
+    
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* 
+vi tri
+mau sac
+kich thuoc
+kieu dang
+ */
+
+#main {
+    display: block;
+    width: 100%;
+
+}
+
+#header {
+    height: 46px;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    bottom: 46px;
+}
+
+#nav {
+    display: inline-block;
+
+}
+
+#nav,
+.subnav {
+    list-style-type: none;
+    /* xoa style dau cham cua the li */
+}
+
+#nav>li>a {
+    color: white;
+}
+
+#nav li a {
+    display: block;
+    text-decoration: none;
+    /* bo gach chan */
+    line-height: 46px;
+    padding: 0 24px;
+    text-transform: uppercase;
+    /* viet hoa */
+
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav>li {
+    display: inline-block;
+
+}
+
+#nav>li:hover>a,
+#nav .subnav li:hover a {
+    color: #000;
+    background-color: #ccc;
+
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: white;
+    color: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3)
+}
+
+#subnav li a {
+    /* display: block; */
+
+
+
+}
+
+#nav .subnav a {
+    color: #000;
+}
+
+#header .ti-angle-down {
+    font-size: 13px;
+}
+
+#header .search-btn {
+    padding: 0 26px;
+    line-height: 46px;
+    font-size: 20px;
+    color: white;
+    float: right;
+    cursor: pointer;
+
+}
+
+#header > .search-btn:hover {
+    background-color: red;
+
+}
+
+#slider {
+    position: relative;
+    margin-top: 46px;
+    padding-top: 50%;
+    background: url(/F8_Band/assets/img/slider/chicago.jpg) top center / cover no-repeat;
+    z-index: -1;
+    width: 100%;
+}
+
+#slider .content {
+    position: absolute;
+    color: white;
+    bottom: 48px;
+    width: 100%;
+    text-align: center;
+}
+#slider-2 .content2-1 {
+    padding-top: 64px;
+    box-sizing: border-box;
+    width: 800px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    }
+#slider-2 .content2-1 {
+    text-align: center;
+}
+#slider-2 .text2-1 {
+    letter-spacing: 4px;
+    margin: 10px;
+}
+#slider-2 .text2-3 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 10px;
+    font-size: 15px;
+    text-align: justify;
+    display: block;
+    
+
+   
+}
+
+.contact-box {
+    display: inline-flex;
+    flex: 2;
+}
+#background-tour {
+    background-color: #000;
+}
+#background-content {
+    background-color: #000;
+    
+    margin: auto;
+}
+#slider-3 {
+    
+    color: white;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#slider-3 .content3-1 .content3-1-1 {
+    
+    display: block;
+    padding-top: 20px;
+    text-align: center;
+    
+}
+.content3-1 .text3-1 {
+    margin: 10px 0;
+}
+#slider-3 ul {
+    width: 98.5%;
+    background-color: #fff;
+    color: #000;
+    margin-top: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+#slider-3 .ticket li {
+    font-size: 15px;
+    background-color: #fff;
+    color: #000;
+    list-style-type: none;
+    border-bottom: 1px solid #ddd;
+    padding: 11px 20px;
+}
+.ticket .padding-span {
+    background-color: #f44336;
+    margin-left: 16px;
+    padding: 4px 8px;
+    
+}
+.ticket .sl {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    font-size: 15px;
+    background-color: darkslategrey;
+    border-radius: 50%;
+    float: right;
+    margin: -3Px 0px;
+    text-align: center;
+
+}
+#slider-4 {
+    color: white;
+
+}
+.wrap {
+    width: 800px;
+    margin-left: auto;  
+    margin-right: auto;  
+    text-align: center;
+    padding-bottom: 30px;
+    
+}
+
+.nember-list {
+    display: inline-block;
+    width: 256px;
+    height: 206px;
+}
+.nember-list .nember {
+    font-size: 15px;
+    /* line-height: 1.5px; */
+    text-align: center;
+}
+
+.band-nember {
+    width: 60%;
+    text-align: center;
+}
+
+
+#buy-ticket {
+ margin-top: 32px;
+}
+.gps-ticket {
+
+width: 33.333%;
+float: left;
+    padding: 0 13px;
+
+}
+#buy-ticket .gps-ticket img {
+    width: 100%;
+    display: block;
+}
+#buy-ticket .ticket-content {
+    background-color: #ccc;
+    color: #000;
+    
+}
+.gps-ticket .ticket-content  {
+    padding: 8px;
+    font-size: 26px;
+
+    
+}
+.gps-ticket .ticket-content h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.gps-ticket .btn-click {
+    width: 108px;
+    height: 40px;
+    color: white;
+    background-color: #000;
+    display: inline-block;
+    
+    
+}
+.gps-ticket .btn-click a {
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.modal {
+    /* width: 900px;
+    min-height: 200px; */
+    position: fixed;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: rgba(0, 0, 0, 0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+    
+  
+    
+}
+
+.modal .model {
+    width: 900px;
+    max-width: calc(100%-60px);
+    min-height: 200px;
+    background-color: #fff;
+    position: relative;
+    
+   
+}
+.model-input {
+    display: block;
+    width: 100%;
+    font-size: 15px;
+    padding:10px 0;
+    margin: 10px 0px;
+
+}
+.model-header {
+    padding: 15px;
+}
+.ti-close {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 10px;
+    cursor: pointer;
+    color: #fff;
+
+}
+.ti-close:hover {
+    opacity: 2;
+}
+
+.modal  .buy-body-ticket {
+    margin: 15px
+}
+
+.modal .model-header {
+    height: 130px;
+    background-color: #009688;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+#buy-tickets {
+    width: 100%;
+    padding: 10px;
+    background-color: #009688;
+    border: none;
+}
+#buy-tickets:hover {
+    opacity: 0.9;
+    background-color: #ccc;
+}
+#model-help {
+    text-align: right;
+    padding-top: 5px;
+
+}
+#model-help a {
+    color: blue;
+    
+}
+
+.modal.open {
+    display: flex;
+}
+.contact-header {
+    text-align: center !important;
+    padding-top: 30px;
+    display: block;
+    
+}
+.contact .contact-brand {
+    display: inline-block;
+    width: 50%;
+    padding-left: 12%;
+    font-size: 18px;
+}
+
+.contact .contact-global {
+    display: inline-block;
+    float: right;
+    width: 50%;
+    font-size: 18px;
+}
+.contact .contact-info {
+    line-height: 1.6;
+}
+.contact .contact-content {
+    padding-top: 45px;
+}
+
+.contact-box .text-box {
+    padding: 8px;
+}
+.contact .mesage {
+    display: flex;
+    flex: 1;
+
+}
+.icon-contact {
+    font-size: 35px;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.map img {
+    min-width: 100%;
+    margin-top: 45px;
+}
+.btn-send {
+    float: right;
+    font-size: 35px;
+    background-color: #000;
+    color: #ccc;
+    position: absolute;
+    /* float: right; */
+    margin: 6px 286px;
+    
+}
+
+
+
+.btn-btn {
+    min-width: 85.7%;
+    
+
+    
+}
+
+
+@media (min-width: 1024px) {
+    .b {
+        color: red;
+        font-size: 30px;
+    }
+}
+
+  
+

@@ -1,0 +1,29 @@
+/* css test */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header {
+    display: inline-flex;
+    background-color: #009688;
+    height: 30px;
+    width: 100%;
+    justify-content: space-between;
+    
+}
+.header__content {
+    margin: 0 15px;
+}
+.list .list__item .image {
+
+    width: 25%;
+}
+
+.list {
+    display: flex;
+    flex: 1;
+}
+.list .list__item {
+    
+}
